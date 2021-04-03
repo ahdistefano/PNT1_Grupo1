@@ -7,15 +7,101 @@
     <title>Ropa Outdoor</title>
 </head>
 <body>
+
+    <!-- Barra superior con promos -->
     <div id="barrasuperior"><b>3, 6 y 12 cuotas sin interés</b> en productos de fabricación nacional en toda la WEB y en locales adheridos</div>
-    <h1 id="topHeader" >Ropa Outdoor</h1>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="nav-link" href="index.html">Home</a>
-        <a class="nav-link" href="indumentaria.html">Indumentaria</a>
-        <a class="nav-link" href="locales.html">Locales</a>
-        <a class="nav-link" href="empresa.html">Empresa</a>
-        <a class="nav-link" href="contacto.html">Contacto</a>
+
+    <!-- Título principal -->
+    <h1 id="topHeader">Ropa Outdoor</h1>
+
+    <!-- Barra de navegación con links: -->
+    <nav id="barraNavegacion" class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="nav-link nav-fill" href="index.html">Home</a>
+        <a class="nav-link nav-fill" href="indumentaria.html">Indumentaria</a>
+        <a class="nav-link nav-fill" href="locales.html">Locales</a>
+        <a class="nav-link nav-fill" href="empresa.html">Empresa</a>
+        <a class="nav-link nav-fill" href="contacto.html">Contacto</a>
     </nav>
+
+    <!-- Carousel con imágenes: -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/index/Promo1.jpg" class="d-block w-100" />
+            </div>
+            <div class="carousel-item">
+                <img src="images/index/Promo2.jpg" class="d-block w-100" />
+            </div>
+            <div class="carousel-item">
+                <img src="images/index/Promo3.jpg" class="d-block w-100" />
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Categorías -->
+    <ul class="flex-container">
+        <li class="flex-item">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img src="images/index/cat-camperas-abrigos.jpg" class="img-fluid">
+                <h2>Camperas</h2>
+            </a>
+        </li>
+        <li class="flex-item">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img src="images/index/cat-pantalones.jpg" class="img-fluid">
+                <h2>Pantalones</h2>
+            </a>
+        </li>
+        <li class="flex-item">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img src="images/index/cat-calzado.jpg" class="img-fluid" />
+                <h2>Calzado</h2>
+            </a>
+        </li>
+        <li class="flex-item">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img src="images/index/cat-mochilas.jpg" class="img-fluid" />
+                <h2>Mochilas</h2>
+            </a>
+        </li>
+        <li class="flex-item">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img src="images/index/cat-camping.jpg" class="img-fluid" />
+                <h2>Camping</h2>
+            </a>
+        </li>
+    </ul>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">En construcción</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ¡Sitio en construcción!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>
@@ -32,9 +118,71 @@
         background-color: white;
         color: black;
         text-align: center;
-        font-family: Verdana;
+        font-family: sans-serif;
         margin-top: 5px;
         margin-bottom: 5px;
     }
+
+    #barraNavegacion {
+        font-family: sans-serif;
+    }
+
+    #categorias {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    #categorias img {
+        z-index: 0;
+        position: absolute;
+    }
+
+    #categorias h2 {
+        z-index: 100;
+        display: inline-block;
+        position: absolute;
+        width: 100%;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 30px;
+        text-shadow: 0 0 15px black;
+        font-family: sans-serif;
+        margin-top:230px;
+        margin-left:100px;
+     }
+
+    .flex-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    .flex-item {
+        background: rgb(30, 30, 30);
+        padding: 5px;
+        width: 360px;
+        height: 480px;
+        margin-top: 10px;
+        line-height: 150px;
+        color: white;
+        font-weight: bold;
+        font-size: 3em;
+    }
+
+    .flex-item h2 {
+        z-index: 100;
+        position: absolute;
+        width: 100%;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 30px;
+        text-shadow: 0 0 15px black;
+        font-family: sans-serif;
+        margin-top:-230px;
+        margin-left:100px;
+     }
 
 </style>

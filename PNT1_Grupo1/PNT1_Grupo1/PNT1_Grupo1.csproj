@@ -68,6 +68,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\bootstrap.css" />
+    <Content Include="images\index\cat-calzado.jpg" />
+    <Content Include="images\index\cat-camperas-abrigos.jpg" />
+    <Content Include="images\index\cat-camping.jpg" />
+    <Content Include="images\index\cat-mochilas.jpg" />
+    <Content Include="images\index\cat-pantalones.jpg" />
+    <Content Include="images\index\Promo1.jpg" />
+    <Content Include="images\index\Promo2.jpg" />
+    <Content Include="images\index\Promo3.jpg" />
     <Content Include="index.html" />
     <Content Include="js\bootstrap.js" />
     <Content Include="Web.config" />
