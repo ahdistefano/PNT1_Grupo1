@@ -67,7 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="contacto.html" />
     <Content Include="css\bootstrap.css" />
+    <Content Include="empresa.html" />
     <Content Include="images\index\cat-calzado.jpg" />
     <Content Include="images\index\cat-camperas-abrigos.jpg" />
     <Content Include="images\index\cat-camping.jpg" />
@@ -77,7 +79,9 @@
     <Content Include="images\index\Promo2.jpg" />
     <Content Include="images\index\Promo3.jpg" />
     <Content Include="index.html" />
+    <Content Include="indumentaria.html" />
     <Content Include="js\bootstrap.js" />
+    <Content Include="locales.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
