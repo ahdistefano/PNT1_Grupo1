@@ -10,9 +10,9 @@
     <div id="barraNavegacion" class="navbar navbar-expand-lg navbar-light bg-light">
         <ul class="nav">
             <li style="margin-right:15px"><a href="index.html">Inicio</a></li>
-            <li style="margin-right:15px"><a href="empresa.html">Empresa</a></li>
+            <li style="margin-right:15px"><a href="empresa.html" target="_blank">Empresa</a></li>
             <li style="margin-right:15px">
-                <a href="indumentaria.html">Indumentaria</a>
+                <a href="indumentaria.html" target="_blank">Indumentaria</a>
                 <ul>
                     <li><a href="indumentaria.html">Camperas</a></li>
                     <li><a href="indumentaria.html">Pantalones</a></li>
@@ -20,7 +20,7 @@
                     <li><a href="indumentaria.html">Calzado</a></li>
                     <li><a href="indumentaria.html">Camping</a></li>
                 </ul>
-            <li style="margin-right:15px"><a href="contacto.html">Contacto</a></li>
+            <li style="margin-right:15px"><a href="contacto.html" target="_blank">Contacto</a></li>
         </ul>
 
     </div>
