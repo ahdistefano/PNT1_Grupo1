@@ -16,7 +16,14 @@
 
 #barraNavegacion {
     font-family: sans-serif;
+    font-size: x-large;
     justify-content: center;
+    border-style:solid;
+    border-radius: 20px;
+}
+
+.menuEnlace {
+             
 }
 
 #categorias {
