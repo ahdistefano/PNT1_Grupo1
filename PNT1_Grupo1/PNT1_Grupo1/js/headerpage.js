@@ -5,10 +5,56 @@
     <!--Título principal-->
     <h1 id="topHeader">Montanita</h1>
 
-    <!--Barra de navegación con links: -->
-    <nav id="barraNavegacion" class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="nav-link nav-fill menuEnlace" href="index.html">Inicio</a>
-        <a class="nav-link nav-fill menuEnlace" href="empresa.html">Empresa</a>
-        <a class="nav-link nav-fill menuEnlace" href="contacto.html">Contacto</a>
-    </nav>
-`);
+
+    <!-- Nueva Barra de Navegación con menú desplegable: -->
+    <div id="barraNavegacion" class="navbar navbar-expand-lg navbar-light bg-light">
+        <ul class="nav">
+            <li style="margin-right:15px"><a href="index.html">Inicio</a></li>
+            <li style="margin-right:15px"><a href="empresa.html">Empresa</a></li>
+            <li style="margin-right:15px">
+                <a href="indumentaria.html">Indumentaria</a>
+                <ul>
+                    <li><a href="indumentaria.html">Camperas</a></li>
+                    <li><a href="indumentaria.html">Pantalones</a></li>
+                    <li><a href="indumentaria.html">Mochila</a></li>
+                    <li><a href="indumentaria.html">Calzado</a></li>
+                    <li><a href="indumentaria.html">Camping</a></li>
+                </ul>
+            <li style="margin-right:15px"><a href="contacto.html">Contacto</a></li>
+        </ul>
+
+    </div>
+
+
+<style>
+    ul, ol {
+        list-style: none;
+    }
+
+    .nav li a {
+        width: 50px;
+        text-decoration: none;
+        display: inline;
+    }
+
+        .nav li a:hover {
+            background-color: darkgrey;
+        }
+
+    .nav > li {
+        float: left;
+    }
+
+    .nav li ul {
+        display: none;
+        position: relative;
+    }
+
+    .nav li:hover > ul {
+        display: block;
+    }
+</style>
+
+
+`
+);
