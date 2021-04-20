@@ -5,13 +5,13 @@
     <link href="css/bootstrap.css" rel="stylesheet" />
     <link href="css/estilos.css" rel="stylesheet" />
     <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/FirstTimePopUp.js"></script>
     <title>Ropa Outdoor</title>
 </head>
 <body>
 
     <script src="js/headerpage.js"></script>
-
-   
 
     <!-- Carousel con imágenes: -->
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -89,6 +89,28 @@
                 <div class="modal-footer">
                     <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
                 </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- First time modal -->
+    <div class="modal fade" id="FirstTime" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">¡Suscríbase!</h5>
+                </div>
+                <form action="index.html" method="get">
+                    <div class="modal-body">
+                        <label style="margin:20px">Suscríbase a Montanita para recibir las últimas novedades en indumentaria y accesorios outdoor.</label>
+                        <input id="emailform" type="email" class="form-control" required />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="form-control-sm btn-dark">ENVIAR</button>
+                        <button type="button" class="btn" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
