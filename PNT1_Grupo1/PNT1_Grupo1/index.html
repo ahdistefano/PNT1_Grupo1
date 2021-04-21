@@ -97,6 +97,7 @@
 </html>
 
 <style>
+
     .flex-container {
         display: flex;
         flex-flow: row wrap;
@@ -116,10 +117,11 @@
         color: white;
         font-weight: bold;
         font-size: 3em;
+        z-index: -1;
     }
 
     .flex-item h2 {
-        z-index: 100;
+        z-index: -1;
         position: absolute;
         width: 100%;
         text-transform: uppercase;
@@ -129,6 +131,7 @@
         font-family: sans-serif;
         margin-top:-230px;
         margin-left:100px;
+        z-index:1;
      }
 
 </style>
