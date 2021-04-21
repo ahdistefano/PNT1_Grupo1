@@ -70,6 +70,7 @@
     <Content Include="contacto.html" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\estilos.css" />
+    <Content Include="css\login.css" />
     <Content Include="empresa.html" />
     <Content Include="images\index\cat-calzado.jpg" />
     <Content Include="images\index\cat-camperas-abrigos.jpg" />
@@ -82,6 +83,7 @@
     <Content Include="index.html" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\headerpage.js" />
+    <Content Include="login.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

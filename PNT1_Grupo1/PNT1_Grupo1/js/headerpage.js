@@ -2,8 +2,12 @@
     
 <div id="fijadoSuperior">
 <!-- Barra superior con promos -->
-    <div id="barrasuperior"> <b>3, 6 y 12 cuotas sin interés</b> en productos de fabricación nacional en toda la WEB y en locales adheridos</div>
+    <div id="barrasuperior"> 
+        <b>3, 6 y 12 cuotas sin interés</b> en productos de fabricación nacional en toda la WEB y en locales adheridos
+        <a href="login.html" id="LoginIndex">Login</a>
 
+    </div>
+    
     <!--Título principal-->
     <h1 id="topHeader">Montanita</p>
 
