@@ -2,11 +2,22 @@
     background-color: black;
     color: white;
     text-align: center;
-    font-style: oblique;
 }
 
-#Loginindex {
- float: right;
+#promocion {
+    font-style: oblique;
+    
+}
+
+#enlaceLogin {
+    font-family: sans-serif;
+    font-size: 14px;
+    text-decoration: ;
+    color: white;
+    font-weight: 700;
+    float: right;
+    margin: 2px 8px 0px 0px;
+    
 }
 
 #topHeader {

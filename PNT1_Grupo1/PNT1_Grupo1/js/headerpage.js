@@ -4,8 +4,7 @@
 <!-- Barra superior con promos -->
     <div id="barrasuperior"> 
         <b>3, 6 y 12 cuotas sin interés</b> en productos de fabricación nacional en toda la WEB y en locales adheridos
-        <a href="login.html" id="LoginIndex">Login</a>
-
+        <a href="login.html" id="enlaceLogin">LOGIN</a>
     </div>
     
     <!--Título principal-->
