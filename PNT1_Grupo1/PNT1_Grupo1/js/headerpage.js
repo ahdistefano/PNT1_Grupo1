@@ -2,18 +2,24 @@
     
 <div id="fijadoSuperior">
 <!-- Barra superior con promos -->
-    <div id="barrasuperior"> 
+    <div id="barrasuperior">    
+
+
+
         <b>3, 6 y 12 cuotas sin interés</b> en productos de fabricación nacional en toda la WEB y en locales adheridos
         <a href="login.html" id="enlaceLogin">LOGIN</a>
     </div>
     
+
     <!--Título principal-->
     <h1 id="topHeader">Montanita</p>
 
 </div>
+
+
     <nav id="menu_gral">
       <ul>
-        <li><a href="index.html">Inicio</a></li>
+        <li><a href="index.html">Inicio</a></li>  
         <li><a href="indumentaria.html">Indumentaria</a>
             <ul>
                 <li><a href="indumentaria.html">Camperas</a></li>
@@ -27,7 +33,8 @@
         <li><a href="contacto.html" target="_blank">Contacto</a></li>
       </ul>
     </nav>
-
+  
+    </div>
 
 <style>
 

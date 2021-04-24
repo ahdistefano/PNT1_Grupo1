@@ -72,6 +72,7 @@
     <Content Include="css\estilos.css" />
     <Content Include="css\login.css" />
     <Content Include="empresa.html" />
+    <Content Include="images\empresa\mountains-and-forest-2210x1473.jpg" />
     <Content Include="images\index\cat-calzado.jpg" />
     <Content Include="images\index\cat-camperas-abrigos.jpg" />
     <Content Include="images\index\cat-camping.jpg" />

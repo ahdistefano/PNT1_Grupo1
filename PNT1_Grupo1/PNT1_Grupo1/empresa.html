@@ -2,9 +2,82 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/estilos.css" rel="stylesheet" />
+    <script src="js/bootstrap.js"></script>
+    <title>Montanita - Acerca de Nosotros</title>
 </head>
+
+
 <body>
 
+    <script src="js/headerpage.js"></script>
+
+    <div class="container">
+        <div class="row">
+            <!--FILA HORIZONTAL-->
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="contenedor">
+                    <img class="imagen" src="images/empresa/mountains-and-forest-2210x1473.jpg" style="max-width:100%; width:auto; height:auto;" />
+                    <div class="centrado">
+                        <p style="color: black; font-size: calc(0.5em + 0.5vw)">NUESTRA MISIÓN</p>
+                        <p style="color: black; font-size: calc(0.5em + 0.5vw)">
+                            <b>
+                                <br />Nuestro camino inicia en 2021 con un objetivo principal:
+                                <br />Ayudar en cada nuevo viaje a todo apasionado por la vida que se cruzara en nuestro camino.
+                                <br />
+                                <br />Nacimos concebidos para dedicarnos al vasto mundo de actividades y deportes outdoor, ampliando horizontes cada día y convencidos de que la aventura es infinita.
+                                <br />Hoy, nuestro objetivo es darte un lugar, un espacio para encontrarte con la aventura y apoyar todos y cada uno de tus proyectos al aire libre.
+                                <br />
+                                <br />Por eso te vamos a acompañar siempre, porque
+                                <br />"La vida comienza allá afuera!"
+                            </b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 </body>
+
+
 </html>
+
+<style>
+
+
+     p {
+        text-justify: auto;
+        text-emphasis-color:white;
+        color: white;
+   /*     text-shadow: 0 0 15px black;*/
+        font-family: sans-serif;
+    }
+
+    .contenedor:hover .imagen { /*Efecto transparencia sobre imagen*/
+        filter: opacity(.5);
+    }
+
+    .contenedor {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .texto-encima {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    .centrado {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+</style>
