@@ -6,17 +6,49 @@
     <title>Login</title>
 </head>
 <body>
-    <form method="post" action="index.html">
-        <div class="box">
-            <button onclick="location.href = 'index.html'" id="volver"> x </button>
-            <h1>Inicio de sesion</h1>
-            <input type="email" id="email" class="email" placeholder="Ingrese su email" required />
-            <input type="password" id="contrasena" class="contrasena" placeholder="Ingrese su contraseña" required />
-            <button id="btn">Entrar</button>
-            <button  id="btn2">Registrarse</button> 
+    <div class="contenedor">
+        <img class="imagen" src="images/empresa/mountains-and-forest-2210x1473.jpg" style="max-width:100%; width:auto; height:auto;" />
+        <div class="centrado">
+            <form method="post" action="index.html">
+                <div class="box">
+                    <button onclick="location.href = 'index.html'" id="volver"> x </button>
+                    <h1>Inicio de sesion</h1>
+                    <input type="email" id="email" class="email" placeholder="Ingrese su email" required />
+                    <input type="password" id="contrasena" class="contrasena" placeholder="Ingrese su contraseña" required />
+                    <button id="btn">Entrar</button>
+                    <button id="btn2">Registrarse</button>
+                </div>
+            </form>
+            <p>Ha perdido su contraseña? <u id="clickaqui">Click aqui!</u></p>
         </div>
-    </form>
-    <p>Ha perdido su contraseña? <u id="clickaqui">Click aqui!</u></p>
+    </div>
 </body>
 </html>
+
+<style>
+
+    .contenedor:hover .imagen { /*Efecto transparencia sobre imagen*/
+        filter: opacity(.5);
+    }
+
+    .contenedor {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .texto-encima {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    .centrado {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+</style>
 

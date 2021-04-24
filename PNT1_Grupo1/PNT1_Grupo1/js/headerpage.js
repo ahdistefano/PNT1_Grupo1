@@ -1,13 +1,10 @@
 ﻿document.write(`
     
-<div id="fijadoSuperior">
-<!-- Barra superior con promos -->
+    <div id="fijadoSuperior">
+    <!-- Barra superior con promos -->
     <div id="barrasuperior">    
-
-
-
-        <b>3, 6 y 12 cuotas sin interés</b> en productos de fabricación nacional en toda la WEB y en locales adheridos
-        <a href="login.html" id="enlaceLogin">LOGIN</a>
+    <b>3, 6 y 12 cuotas sin interés</b> en productos de fabricación nacional en toda la WEB y en locales adheridos
+    <a href="login.html" id="enlaceLogin">LOGIN</a>
     </div>
     
 
@@ -31,6 +28,12 @@
         </li>
         <li><a href="empresa.html" target="_blank">Empresa</a></li>
         <li><a href="contacto.html" target="_blank">Contacto</a></li>
+        <li><a href="#" target="_blank">Pais</a>
+            <ul>
+                <li><a href="#"><div>ARGENTINA</div><img src="images/index/iconoArgentina.png" /></a></li>
+                <li><a href="#"><div>URUGUAY</div><img src="images/index/iconoUruguay.png" /></a></li>
+            </ul>
+        </li>   
       </ul>
     </nav>
   
@@ -61,7 +64,7 @@
 }
 #menu_gral > ul li {   /*selector de hijo directo (>) para evitar que sus propiedades sean heredadas por los li de segundo nivel (las opciones que se desplegarán).*/
     display: inline-block;
-    width: 25%; /*Son cuatro botones, así que cada uno al 25% (de su padre)*/
+    width: 20%; /*Son cuatro botones, así que cada uno al 25% (de su padre)*/
     position: relative; /* Relative para que el desplegable se coloque respecto a él.*/
     background: none; /*COLOR RELLENO BOTONES DE LA BARRA*/
 }

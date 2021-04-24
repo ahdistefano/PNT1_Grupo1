@@ -78,6 +78,8 @@
     <Content Include="images\index\cat-camping.jpg" />
     <Content Include="images\index\cat-mochilas.jpg" />
     <Content Include="images\index\cat-pantalones.jpg" />
+    <Content Include="images\index\iconoArgentina.png" />
+    <Content Include="images\index\iconoUruguay.png" />
     <Content Include="images\index\Promo1.jpg" />
     <Content Include="images\index\Promo2.jpg" />
     <Content Include="images\index\Promo3.jpg" />
