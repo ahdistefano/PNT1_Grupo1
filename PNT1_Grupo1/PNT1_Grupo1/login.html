@@ -9,13 +9,13 @@
     <div class="contenedor">
         <img class="imagen" src="images/empresa/mountains-and-forest-2210x1473.jpg" style="width:100%; height:100vh;" />
         <div class="centrado">
-            <form method="post" action="index.html">
+            <form id="form" method="post" action="index.html">
                 <div class="box">
                     <button onclick="location.href = 'index.html'" id="volver"> x </button>
                     <h1>Inicio de sesion</h1>
                     <input type="email" id="email" class="email" placeholder="Ingrese su email" required />
                     <input type="password" id="contrasena" class="contrasena" placeholder="Ingrese su contraseña" required />
-                    <button id="btn">Entrar</button>
+                    <button id="btn" onclick="sesion();">Entrar</button>
                     <button id="btn2">Registrarse</button>
                 </div>
             </form>
@@ -52,3 +52,19 @@
 
 </style>
 
+<script>
+    function sesion() {
+        var emailHardCode = "admin@gmail.com";
+        var passHardCode = "admin";
+        var email = document.getElementById("email").value;
+        var pass = document.getElementById("contrasena").value;
+
+        if (pass == passHardCode && email == emailHardCode) {
+            alert("Bienvenido!");
+            location.href = 'index.html';
+        } else {
+            alert("Error. Revise sus datos e intente nuevamente.");
+        }   
+    }
+
+</script>
