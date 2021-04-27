@@ -11,33 +11,37 @@
     <!--Título principal-->
     <h1 id="topHeader">Montanita</p>
 
+    <!--Menú con desplegables, responsive.-->
+    <div class="container">
+        <nav id="menu_gral" class="row">
+            <ul class="col-lg-12 col-md-12 col-sm-12">
+                <li><a href="index.html">Inicio</a></li>
+                <li>
+                    <a href="indumentaria.html">Indumentaria</a>
+                    <ul>
+                        <li><a href="indumentaria.html">Camperas</a></li>
+                        <li><a href="indumentaria.html">Pantalones</a></li>
+                        <li><a href="indumentaria.html">Mochila</a></li>
+                        <li><a href="indumentaria.html">Calzado</a></li>
+                        <li><a href="indumentaria.html">Camping</a></li>
+                    </ul>
+                </li>
+                <li><a href="empresa.html" target="_blank">Empresa</a></li>
+                <li><a href="contacto.html" target="_blank">Contacto</a>
+                <li>
+                    <a href="#" target="_blank">Pais</a>
+                    <ul>
+                        <li><a href="#"><div>ARGENTINA</div><img src="images/index/iconoArgentina.png" /></a></li>
+                        <li><a href="#"><div>URUGUAY</div><img src="images/index/iconoUruguay.png" /></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
 </div>
 
 
-    <nav id="menu_gral">
-      <ul>
-        <li><a href="index.html">Inicio</a></li>  
-        <li><a href="indumentaria.html">Indumentaria</a>
-            <ul>
-                <li><a href="indumentaria.html">Camperas</a></li>
-                <li><a href="indumentaria.html">Pantalones</a></li>
-                <li><a href="indumentaria.html">Mochila</a></li>
-                <li><a href="indumentaria.html">Calzado</a></li>
-                <li><a href="indumentaria.html">Camping</a></li>
-            </ul>
-        </li>
-        <li><a href="empresa.html" target="_blank">Empresa</a></li>
-        <li><a href="contacto.html" target="_blank">Contacto</a></li>
-        <li><a href="#" target="_blank">Pais</a>
-            <ul>
-                <li><a href="#"><div>ARGENTINA</div><img src="images/index/iconoArgentina.png" /></a></li>
-                <li><a href="#"><div>URUGUAY</div><img src="images/index/iconoUruguay.png" /></a></li>
-            </ul>
-        </li>   
-      </ul>
-    </nav>
-  
-    </div>
 
 <style>
 
@@ -54,7 +58,7 @@
 }
 #menu_gral {
     font-family: verdana, sans sherif;
-    width: 80%;
+    width: 100%;
     margin: 1.5rem auto;
 }
 #menu_gral ul {
@@ -64,7 +68,7 @@
 }
 #menu_gral > ul li {   /*selector de hijo directo (>) para evitar que sus propiedades sean heredadas por los li de segundo nivel (las opciones que se desplegarán).*/
     display: inline-block;
-    width: 20%; /*Son cuatro botones, así que cada uno al 25% (de su padre)*/
+    /*width: 20%;*/ /*Son cuatro botones, así que cada uno al 25% (de su padre)*/
     position: relative; /* Relative para que el desplegable se coloque respecto a él.*/
     background: none; /*COLOR RELLENO BOTONES DE LA BARRA*/
 }
@@ -74,6 +78,8 @@
     font-size: 1.5rem; /*Tamaño fuente letras BARRA*/
     line-height: 2.5rem; /*Altura del hover de la BARRA.*/
     color: black; /*Color LETRAS BARRA en estado de reposo*/
+    width: 13.65rem;
+    /*border:solid;*/
 }
 #menu_gral li:hover a, #menu_gral li a:focus { 
     background: gray;  /*COLOR RELLENO DE BOTONES DE LA BARRA AL HACER HOVER*/
