@@ -1,0 +1,52 @@
+﻿#botones {
+    display: flex;
+    text-align: center;
+    align-items: stretch;
+}
+
+#main > .posts {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-items: stretch;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+}
+
+#main > .posts > * {
+    flex-shrink: 1;
+    -webkit-flex-grow: 0;
+    flex-grow: 0;
+}
+
+#main > .posts > * {
+    width: 50%;
+}
+
+#main > .posts > * {
+    padding: 4rem;
+    width: 50%;
+}
+
+#main > .posts > article {
+    border-color: #eeeeee;
+    border-left-width: 2px;
+    border-style: solid;
+    border-top-width: 2px;
+    text-align: center;
+}
+
+#main > .posts > article > :last-child {
+    margin-bottom: 0;
+}
+
+#main > .posts > article:nth-child(2n - 1) {
+    border-left-width: 0;
+}
+
+#main > .posts > article:nth-child(-n + 2) {
+    border-top-width: 0;
+}

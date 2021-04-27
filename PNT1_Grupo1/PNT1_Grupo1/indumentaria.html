@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/estilos.css" rel="stylesheet" />
+    <link href="css/indumentaria.css" rel="stylesheet" />
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/FirstTimePopUp.js"></script>
+    <script src="js/agregarItems.js"></script>
+    <title>Indumentaria</title>
+</head>
+<body>
+
+    <script src="js/headerpage.js"></script>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <div id="botones" class="container">
+
+            <button type="button" class="btn-dark" onclick="getProductos('pantalones')">Pantalones</button>
+            <button type="button" class="btn-dark" onclick="getProductos('camperas')">Camperas</button>
+            <button type="button" class="btn-dark" onclick="getProductos('mochilas')">Mochilas</button>
+            <button type="button" class="btn-dark" onclick="getProductos('calzado')">Calzado</button>
+            <button type="button" class="btn-dark" onclick="getProductos('camping')">Camping</button>
+
+        </div>
+
+        <!-- Main -->
+        <div id="main">
+
+            <!-- Posts -->
+            <section id="seccion" class="posts"></section>
+
+        </div>
+
+
+    </div>
+</body>
+</html>
