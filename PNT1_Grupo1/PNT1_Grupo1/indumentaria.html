@@ -11,7 +11,7 @@
     <script src="js/agregarItems.js"></script>
     <title>Indumentaria</title>
 </head>
-<body>
+<body onLoad="getProductos(getParameterByName('categoria'))";>
 
     <script src="js/headerpage.js"></script>
 
@@ -19,13 +19,13 @@
     <div id="wrapper">
 
         <div id="botones" class="container">
-
-            <button type="button" class="btn-dark" onclick="getProductos('pantalones')">Pantalones</button>
-            <button type="button" class="btn-dark" onclick="getProductos('camperas')">Camperas</button>
-            <button type="button" class="btn-dark" onclick="getProductos('mochilas')">Mochilas</button>
-            <button type="button" class="btn-dark" onclick="getProductos('calzado')">Calzado</button>
-            <button type="button" class="btn-dark" onclick="getProductos('camping')">Camping</button>
-
+            <center>
+                <button type="button" class="btn-dark" onclick="getProductos('pantalones')">Pantalones</button>
+                <button type="button" class="btn-dark" onclick="getProductos('camperas')">Camperas</button>
+                <button type="button" class="btn-dark" onclick="getProductos('mochilas')">Mochilas</button>
+                <button type="button" class="btn-dark" onclick="getProductos('calzado')">Calzado</button>
+                <button type="button" class="btn-dark" onclick="getProductos('camping')">Camping</button>
+            </center>
         </div>
 
         <!-- Main -->

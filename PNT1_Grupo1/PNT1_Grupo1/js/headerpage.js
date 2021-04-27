@@ -19,11 +19,11 @@
                 <li>
                     <a href="indumentaria.html">Indumentaria</a>
                     <ul>
-                        <li><a href="indumentaria.html">Camperas</a></li>
-                        <li><a href="indumentaria.html">Pantalones</a></li>
-                        <li><a href="indumentaria.html">Mochila</a></li>
-                        <li><a href="indumentaria.html">Calzado</a></li>
-                        <li><a href="indumentaria.html">Camping</a></li>
+                        <li><a href="indumentaria.html?categoria=camperas">Camperas</a></li>
+                        <li><a href="indumentaria.html?categoria=pantalones">Pantalones</a></li>
+                        <li><a href="indumentaria.html?categoria=mochilas">Mochilas</a></li>
+                        <li><a href="indumentaria.html?categoria=calzado">Calzado</a></li>
+                        <li><a href="indumentaria.html?categoria=camping">Camping</a></li>
                     </ul>
                 </li>
                 <li><a href="empresa.html" target="_blank">Empresa</a></li>

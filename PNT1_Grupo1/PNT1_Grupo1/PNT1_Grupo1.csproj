@@ -109,7 +109,6 @@
     <Content Include="js\bootstrap.js" />
     <Content Include="js\FirstTimePopUp.js" />
     <Content Include="js\headerpage.js" />
-    <Content Include="js\indumentaria\arrayPantalones.js" />
     <Content Include="js\jquery-3.6.0.js" />
     <Content Include="login.html" />
     <Content Include="Web.config" />
