@@ -9,17 +9,17 @@
     <div class="contenedor">
         <img class="imagen" src="images/empresa/mountains-and-forest-2210x1473.jpg" style="width:100%; height:100vh;" />
         <div class="centrado">
-            <form id="form">
+            
                 <div class="box">
-                    <button onclick="location.href='index.html'" id="volver"> x </button>
+                    <button class="boton" onclick="location.href='index.html'" id="volver"> x </button>
                     <h1>Inicio de sesion</h1>
                     <input type="email" id="email" class="email" placeholder="Ingrese su email" required />
                     <input type="password" id="contrasena" class="contrasena" placeholder="Ingrese su contraseña" required />
                     <button id="btn" class="boton" onclick="sesion();">Entrar</button>
-                    <button id="btn2" class="boton">Registrarse</button>
+                    <button id="btn2" class="boton" onclick="alertaDesactivado();">Registrarse</button>
                 </div>
-            </form>
-            <p>Ha perdido su contraseña? <u id="clickaqui">Click aqui!</u></p>
+            
+            <p>Ha perdido su contraseña? <u id="clickaqui" onclick="alertaDesactivado();">Click aqui!</u></p>
         </div>
     </div>
 </body>
@@ -60,13 +60,16 @@
         var passHardCode = "admin";
         var email = document.getElementById("email").value;
         var pass = document.getElementById("contrasena").value;
+        var esCorrecto = false;
         if (pass == passHardCode && email == emailHardCode) {
             alert("Bienvenido, " + email);
-            //mandame a index
             location.href = 'index.html';
         } else {
             alert("Error. Revise sus datos e intente nuevamente.");
         }
     }
 
+    function alertaDesactivado() {
+        alert("Lo sentimos. Esta funcionalidad esta desactivada temporalmente.");
+    }
 </script>
