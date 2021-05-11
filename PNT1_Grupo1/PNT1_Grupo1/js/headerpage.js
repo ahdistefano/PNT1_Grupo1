@@ -9,7 +9,7 @@
     
 
     <!--Título principal-->
-    <h1 id="topHeader">Montanita</p>
+    <h1 id="topHeader">Extreme Outdoor</p>
 
     <!--Menú con desplegables, responsive.-->
     <div class="container">
