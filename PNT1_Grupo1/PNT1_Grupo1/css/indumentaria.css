@@ -22,7 +22,7 @@
         display: block;
         margin: 0.4em auto;
     }
-} 
+}
 
 #main > .posts {
     display: -webkit-flex;
@@ -34,6 +34,7 @@
     text-align: center;
     width: 100%;
     padding: 0;
+    font-size: 25px;
 }
 
 #main > .posts > * {

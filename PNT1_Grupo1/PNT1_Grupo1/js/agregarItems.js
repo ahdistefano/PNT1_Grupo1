@@ -53,18 +53,22 @@
         encabezado.appendChild(document.createElement('BR'));
 
         for (j = 1; j < productos[i].length; j++) {
-            var label = document.createElement('LABEL');
 
             if (j == 1) {   //Si es el elemento 1 del array, poner el label en negrita
+                var label = document.createElement('LABEL');
                 var b = encabezado.appendChild(document.createElement('B'));
                 b.appendChild(document.createTextNode(productos[i][j]));
+                label.appendChild(b);
+                encabezado.appendChild(label);
             }
             else {
+                var label = document.createElement('LABEL');
                 label.appendChild(document.createTextNode(productos[i][j]));
+                encabezado.appendChild(label);
             }
 
 
-            encabezado.appendChild(label).className = "itemIndumentaria";
+            //encabezado.appendChild(label).className = "itemIndumentaria";
             encabezado.appendChild(document.createElement('BR'));
 
             articulo.appendChild(encabezado);
