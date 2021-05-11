@@ -17,7 +17,7 @@
             <ul class="col-lg-12 col-md-12 col-sm-12">
                 <li><a href="index.html">Inicio</a></li>
                 <li>
-                    <a href="indumentaria.html">Indumentaria</a>
+                    <a href="indumentaria.html" target="_blank">Indumentaria</a>
                     <ul>
                         <li><a href="indumentaria.html?categoria=camperas">Camperas</a></li>
                         <li><a href="indumentaria.html?categoria=pantalones">Pantalones</a></li>
@@ -29,7 +29,7 @@
                 <li><a href="empresa.html" target="_blank">Empresa</a></li>
                 <li><a href="contacto.html" target="_blank">Contacto</a>
                 <li>
-                    <a href="#" target="_blank">Pais</a>
+                    <a href="index.html" target="_blank">Pais</a>
                     <ul>
                         <li><a href="#"><div>ARGENTINA</div><img src="images/index/iconoArgentina.png" /></a></li>
                         <li><a href="#"><div>URUGUAY</div><img src="images/index/iconoUruguay.png" /></a></li>
